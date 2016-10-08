@@ -1,0 +1,116 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	width: 100%;
+	height: 100%;
+	position: relative;
+	right: 0;
+	left: 0;
+	top:0;
+	bottom:0;
+	margin: auto;
+	background: url('../images/41.jpg') no-repeat ;
+}
+.scene{
+	width: 850px;
+	height: 100%;
+	/*border: 1px solid red;*/
+	top:0;
+	bottom:0;
+	left:0;
+	right:0;
+	margin: auto;
+	position: relative;
+}
+.scene .pai{
+	width: 120px;
+	height: 165px;
+	float: left;
+	background-size: 100%;   /*控制牌和框 将两者大小一致*/
+	position: absolute;
+	top:0;
+	left: 400px;
+	opacity: 0;
+}
+.scene .move-left,.scene .move-right{
+	width: 50px;
+	height: 40px;
+	line-height: 40px;
+	border-radius: 5px;
+	position: absolute;
+	left: 490px;
+	top: 550px;
+	cursor: pointer;
+	/*background: red;*/
+	z-index: 100;
+}
+.scene .move-left{
+	left: 430px;
+}
+.scene img{
+	width: 50px;
+	height: 40px;
+}
+.start-button{
+	width: 100px;
+	height: 35px;
+	position: absolute;
+	left: 15px;
+	top:40px;
+	background: #ccc;
+	cursor: pointer;
+	border-radius: 5px;
+}
+.start-button span{
+	/*color: #fff;*/
+	line-height: 35px;
+	margin-left: 5px;
+}
+.start-button img{
+	float: right;
+	margin-top: 5px;
+}
+.end-button{
+	width: 100px;
+	height: 35px;
+	position: absolute;
+	left: 15px;
+	top:90px;
+	background: #ccc;
+	cursor: pointer;
+	border-radius: 5px;
+}
+.end-button img{
+	width: 25px;
+	height: 25px;
+	float: right;
+	margin-top: 5px;
+}
+.end-button span{
+	/*color: #fff;*/
+	line-height: 35px;
+	margin-left: 5px;
+}
+.retry-button{
+	width: 100px;
+	height: 35px;
+	position: absolute;
+	left: 15px;
+	top:140px;
+	background: #ccc;
+	cursor: pointer;
+	border-radius: 5px;
+}
+.retry-button img{
+	width: 25px;
+	height: 25px;
+	float: right;
+	margin-top: 5px;
+}
+.retry-button span{
+	/*color: #fff;*/
+	line-height: 35px;
+	margin-left: 5px;
+}
